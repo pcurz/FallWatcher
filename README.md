@@ -1,4 +1,9 @@
 # FallWatcher
+<p align="center">
+  <img src="assets/images/white_mode_preview.jpg" alt="White Mode Preview" width="125"/>
+  <img src="assets/images/alert_preview.jpg" alt="Alert Preview" width="125"/>
+  <img src="assets/images/app_demo.gif" alt="App Demo GIF" width="125"/>
+</p>
 
 **FallWatcher** is a complete IoT-based system for detecting falls in real-time using ESP8266 devices, an MQTT broker, and a Flutter mobile application. The system is composed of the following components:
 
