@@ -1,0 +1,16 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+.vscode/
+
+mqtt-server/node_modules
+mqtt-server/package-lock.json

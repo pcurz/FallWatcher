@@ -1,0 +1,29 @@
+name: fallwatcherapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  connectivity_plus: ^6.0.5
+  device_info_plus: ^10.1.2
+  flutter:
+    sdk: flutter
+  flutter_background_service: ^5.0.10
+  flutter_bloc: ^8.1.6
+  flutter_local_notifications: ^17.2.2
+  mqtt_client: ^10.5.1
+  permission_handler: ^11.3.1
+  qr_code_scanner_plus: ^2.0.6
+  shared_preferences: ^2.3.2
+  vibration: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true

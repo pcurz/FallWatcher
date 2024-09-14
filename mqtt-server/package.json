@@ -1,0 +1,38 @@
+{
+  "name": "mqtt-server",
+  "version": "0.1.0",
+  "main": "server.js",
+  "description": "MQTT server using Aedes",
+  "author": "pcurz",
+  "license": "GPL-3.0-only",
+  "keywords": [
+    "mqtt",
+    "server",
+    "aedes",
+    "iot"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prod": "pm2 start src/index.js --name mqtt-server --env production",
+    "stop": "pm2 stop mqtt-server",
+    "restart": "pm2 restart mqtt-server",
+    "logs": "pm2 logs mqtt-server"
+  },
+  "dependencies": {
+    "aedes": "^0.51.3",
+    "express": "^4.21.0",
+    "module-alias": "^2.2.3",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4",
+    "pm2": "^5.4.2"
+  },
+  "_moduleAliases": {
+    "@config": "src/config",
+    "@mqtt": "src/mqtt",
+    "@qr": "src/qr",
+    "@server": "src/server"
+  }
+}
