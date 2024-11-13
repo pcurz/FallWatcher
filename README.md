@@ -5,7 +5,7 @@
   <img src="assets/images/app_demo.gif" alt="App Demo GIF" width="125"/>
 </p>
 
-**FallWatcher** is a complete IoT-based system for detecting falls in real-time using ESP8266 devices, an MQTT broker, and a Flutter mobile application. The system is composed of the following components:
+**FallWatcher** is an academic project that encompasses a complete IoT-based system for real-time fall detection. The solution was developed using ESP8266 devices, an MQTT broker, and a Flutter mobile application. This system integrates various components to achieve efficient communication and instant notifications. I was responsible for orchestrating the development and integration of all components, while the rest of the team constructed the physical device using IMU sensors and a 3D-printed casing. The system is composed of the following components:
 
 1. **ESP8266 Fall Detection Device**: Firmware running on ESP8266 devices that detects falls and registers with the MQTT broker.
 2. **MQTT Broker (Node.js)**: A broker built using **Aedes** and **Node.js**, which manages the communication between devices and the Flutter app. It also generates a QR code for each device's MAC address when they register.
